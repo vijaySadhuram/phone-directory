@@ -1,7 +1,6 @@
 function App() {
   return (
-    <div>
-      phone directory
+    <div className="header">
       
     </div>
   );
