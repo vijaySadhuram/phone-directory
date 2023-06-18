@@ -1,18 +1,11 @@
+import React, { Component } from "react";
+import ReactDOM from 'react-dom/client';
+import Appcomponents from "./components/header"; 
 function App() {
-  return (
-    <div className="header">
-      phone directory
-      <div>
-        <button>ADD</button>
-        <div>
-        <label>Username: </label>
-        <input placeholder="Enter Name"></input> <br/>
-        <label>Phone: </label>
-        <input placeholder="Enter Phone" defaultValue={a+b}></input>
-        </div>
-      
+ return (
+    <div id="header">
+     good morning <Appcomponents name={"vijay"}/> <Appcomponents name={"sadhuram"}/>
     </div>
   );
 }
-
 export default App;
